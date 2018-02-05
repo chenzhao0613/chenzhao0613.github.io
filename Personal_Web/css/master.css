@@ -1,0 +1,87 @@
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/*Sqaure */
+.prof-box {
+	width: 400px;
+	height: 500px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+/* profile picture */
+.profile-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200;
+}
+
+/* letter  */
+h1{
+	font-weight: 100;
+	letter-spacing: 5;
+	font-size: 40px;
+}
+
+/* letter */
+p{
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+
+/* social icons */
+.social-icons{
+	font-size: 25px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Google */
+.fa-github {
+  background: #444444;
+  color: white;
+}
+
+.fa-sticky-note{
+  color: white;
+}
+
+.line-break{
+	width: 400px;
+	border-top: 1px solid white;
+}
